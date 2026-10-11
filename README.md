@@ -4,18 +4,9 @@
 
 </div>
 
-<pre align="center">
-╔══════════════════════════════════════════════════════════════════════╗
-║  V I G N E S H   S A I  //  BUILDING THE INVISIBLE MACHINERY         ║
-║  AI SYSTEMS · MCP INFRASTRUCTURE · WORKFLOW ENGINES · VISUAL QA      ║
-╚══════════════════════════════════════════════════════════════════════╝
-</pre>
-
 <div align="center">
 
-<a href="https://github.com/vigneshsai890?tab=repositories"><img src="https://img.shields.io/badge/STATUS-BUILDING-A7FF3F?style=flat-square&labelColor=07111D&color=17685C" alt="Status building" /></a>
-<a href="https://github.com/vigneshsai890"><img src="https://img.shields.io/badge/MODE-ITERATE-55D6FF?style=flat-square&labelColor=07111D&color=163044" alt="Mode iterate" /></a>
-<a href="https://github.com/vigneshsai890?tab=stars"><img src="https://img.shields.io/badge/OPEN_SOURCE-SELECTED-FFB86B?style=flat-square&labelColor=07111D&color=163044" alt="Selected open source" /></a>
+<sub>AI SYSTEMS &nbsp;·&nbsp; MCP INFRASTRUCTURE &nbsp;·&nbsp; WORKFLOW PRODUCTS &nbsp;·&nbsp; VISUAL QA</sub>
 
 </div>
 

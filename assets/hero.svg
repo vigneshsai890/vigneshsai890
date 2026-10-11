@@ -1,56 +1,79 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 460" role="img" aria-labelledby="title desc">
-  <title id="title">Vignesh Sai — AI systems, MCP infrastructure and creative tools</title>
-  <desc id="desc">A dark brutalist Y2K-inspired animated developer portfolio banner.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 480" role="img" aria-labelledby="title desc">
+  <title id="title">Vignesh Sai — systems, interfaces and tools for the agentic web</title>
+  <desc id="desc">A static Y2K editorial profile banner in charcoal, paper, cobalt, muted lime and dusty pink.</desc>
   <defs>
-    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
-      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#243449" stroke-width="1"/>
+    <pattern id="micro-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#313238" stroke-width="1"/>
     </pattern>
-    <linearGradient id="glow" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#A7FF3F" stop-opacity=".95"/>
-      <stop offset="1" stop-color="#55D6FF" stop-opacity=".9"/>
+    <linearGradient id="chrome" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#F7F4EE"/>
+      <stop offset=".18" stop-color="#8E919A"/>
+      <stop offset=".38" stop-color="#E5E5E2"/>
+      <stop offset=".58" stop-color="#777B86"/>
+      <stop offset=".8" stop-color="#DADBD8"/>
+      <stop offset="1" stop-color="#646873"/>
     </linearGradient>
-    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
+    <radialGradient id="orb" cx="34%" cy="26%" r="80%">
+      <stop offset="0" stop-color="#FCFBF7"/>
+      <stop offset=".22" stop-color="#AEB2BE"/>
+      <stop offset=".48" stop-color="#626773"/>
+      <stop offset=".75" stop-color="#272B36"/>
+      <stop offset="1" stop-color="#111319"/>
+    </radialGradient>
+    <clipPath id="orb-clip"><circle cx="1132" cy="233" r="142"/></clipPath>
     <style>
+      .display{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:800;letter-spacing:-5px}
+      .sans{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif}
       .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace}
-      .sans{font-family:Arial,Helvetica,sans-serif}
     </style>
   </defs>
-  <rect width="1400" height="460" rx="18" fill="#07111D"/>
-  <rect x="1" y="1" width="1398" height="458" rx="17" fill="url(#grid)" stroke="#A7FF3F" stroke-opacity=".55" stroke-width="2"/>
-  <path d="M0 370 L1400 90" stroke="#55D6FF" stroke-opacity=".2" stroke-width="2"/>
-  <path d="M0 420 L1400 140" stroke="#A7FF3F" stroke-opacity=".12" stroke-width="10"/>
-  <g transform="translate(92 76)">
-    <text class="mono" fill="#A7FF3F" font-size="17" letter-spacing="5">BUILD / BREAK / REBUILD</text>
-    <text class="sans" fill="url(#glow)" font-size="104" font-weight="900" letter-spacing="-7" filter="url(#softGlow)">VIGNESH</text>
-    <text class="sans" fill="#F4F8FF" font-size="104" font-weight="900" letter-spacing="-7">SAI</text>
-    <rect x="4" y="222" width="396" height="4" fill="#A7FF3F">
-      <animate attributeName="width" values="396;270;396" dur="3.2s" repeatCount="indefinite"/>
-    </rect>
-    <text class="mono" y="262" fill="#B7C6D8" font-size="18" letter-spacing="2">AI SYSTEMS  ·  MCP  ·  PRODUCT ENGINEERING</text>
-    <text class="mono" y="294" fill="#55D6FF" font-size="13" letter-spacing="3">HUMAN-SCALE SOFTWARE / MACHINE-SCALE CURIOSITY</text>
+
+  <!-- quiet charcoal field -->
+  <rect width="1400" height="480" rx="20" fill="#15161A"/>
+  <rect x="1" y="1" width="1398" height="478" rx="19" fill="url(#micro-grid)" opacity=".72"/>
+  <rect x="1" y="1" width="1398" height="478" rx="19" fill="none" stroke="#6C6D76" stroke-width="2"/>
+
+  <!-- editorial colour blocks -->
+  <path d="M0 0H1400V66H0Z" fill="#E9E4DB"/>
+  <path d="M0 414H1400V480H0Z" fill="#D8E8A0"/>
+  <path d="M1038 66H1400V414H1190L1068 328Z" fill="#6B78D5"/>
+  <path d="M1190 414H1400V480H1140Z" fill="#D995A9"/>
+  <path d="M0 66H1400" stroke="#15161A" stroke-width="4"/>
+
+  <!-- small editorial labels -->
+  <text x="58" y="43" class="mono" fill="#15161A" font-size="14" letter-spacing="3">VIGNESH SAI / SELECTED WORK</text>
+  <text x="1342" y="43" class="mono" fill="#15161A" font-size="13" text-anchor="end" letter-spacing="2">2026 · 01</text>
+
+  <!-- name lockup -->
+  <g transform="translate(70 128)">
+    <text class="mono" fill="#D8E8A0" font-size="14" letter-spacing="4">AI SYSTEMS / PRODUCT ENGINEERING</text>
+    <text y="92" class="display" fill="#F5F1E9" font-size="112">VIGNESH</text>
+    <text y="190" class="display" fill="#F5F1E9" font-size="112">SAI</text>
+    <rect x="5" y="217" width="410" height="12" fill="#D8E8A0"/>
+    <rect x="425" y="217" width="78" height="12" fill="#D995A9"/>
+    <text y="270" class="sans" fill="#D7D2C9" font-size="20" letter-spacing="1">interfaces, infrastructure &amp; tools for the agentic web</text>
   </g>
-  <g transform="translate(1080 88)" filter="url(#softGlow)">
-    <circle cx="120" cy="120" r="90" fill="none" stroke="#A7FF3F" stroke-width="2" stroke-dasharray="4 12">
-      <animateTransform attributeName="transform" type="rotate" from="0 120 120" to="360 120 120" dur="16s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="120" cy="120" r="56" fill="none" stroke="#55D6FF" stroke-width="3" stroke-dasharray="90 15 12 25">
-      <animateTransform attributeName="transform" type="rotate" from="360 120 120" to="0 120 120" dur="9s" repeatCount="indefinite"/>
-    </circle>
-    <path d="M120 42 L132 108 L198 120 L132 132 L120 198 L108 132 L42 120 L108 108 Z" fill="#A7FF3F" fill-opacity=".18" stroke="#A7FF3F" stroke-width="2">
-      <animateTransform attributeName="transform" type="rotate" from="0 120 120" to="360 120 120" dur="12s" repeatCount="indefinite"/>
-    </path>
-    <circle cx="120" cy="120" r="13" fill="#A7FF3F">
-      <animate attributeName="r" values="10;17;10" dur="1.4s" repeatCount="indefinite"/>
-    </circle>
+
+  <!-- chrome orb: static Y2K object, no glow or motion -->
+  <g>
+    <circle cx="1132" cy="233" r="153" fill="#15161A" stroke="#15161A" stroke-width="14"/>
+    <circle cx="1132" cy="233" r="142" fill="url(#orb)" stroke="#F5F1E9" stroke-width="3"/>
+    <g clip-path="url(#orb-clip)" fill="none" stroke="#F5F1E9" stroke-opacity=".55" stroke-width="2">
+      <ellipse cx="1132" cy="233" rx="113" ry="142"/>
+      <ellipse cx="1132" cy="233" rx="55" ry="142"/>
+      <ellipse cx="1132" cy="233" rx="142" ry="38"/>
+      <ellipse cx="1132" cy="233" rx="142" ry="88"/>
+      <path d="M980 216H1284M982 254H1282"/>
+    </g>
+    <path d="M1053 141C1081 115 1117 104 1154 108" fill="none" stroke="#F5F1E9" stroke-width="7" stroke-linecap="round" opacity=".65"/>
+    <circle cx="1086" cy="151" r="9" fill="#D8E8A0"/>
   </g>
-  <rect x="0" y="0" width="1400" height="5" fill="#A7FF3F" opacity=".75">
-    <animate attributeName="y" values="0;455;0" dur="5.5s" repeatCount="indefinite"/>
-  </rect>
-  <g class="mono" font-size="12" fill="#A7FF3F">
-    <text x="42" y="430">[01] PROFILE // ONLINE</text>
-    <text x="1120" y="430">SYS::VIG-890</text>
+
+  <!-- brutalist registration marks -->
+  <g class="mono" font-size="12" letter-spacing="2">
+    <text x="68" y="451" fill="#15161A">01 / SYSTEMS</text>
+    <text x="304" y="451" fill="#15161A">02 / MCP</text>
+    <text x="470" y="451" fill="#15161A">03 / WORKFLOWS</text>
+    <text x="1330" y="451" fill="#15161A" text-anchor="end">VIG-890</text>
   </g>
 </svg>
